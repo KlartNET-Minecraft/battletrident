@@ -41,5 +41,6 @@ tasks {
 	shadowJar {
 		destinationDirectory = file("./run/plugins/")
 		archiveFileName = "plugin.jar"
+		duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 	}
 }

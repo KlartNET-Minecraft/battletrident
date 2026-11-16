@@ -1,4 +1,5 @@
 package com.battletrident
 
-class Utils {
-}
+
+
+lateinit var instance: BattleTrident

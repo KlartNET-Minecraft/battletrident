@@ -1,12 +1,16 @@
-package com.battletrident.gameManager
+package com.battletrident.game
 
-enum class GameStateType {
+enum class GameState {
 	LOBBY,
 	STARTING,
 	IN_PROGRESS,
 	ENDING
 }
 
-data class GameState(
-	val state: GameStateType
+data class Game(
+	val state: GameState,
 )
+
+fun Game.start() {
+	
+}

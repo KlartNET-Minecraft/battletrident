@@ -1,4 +1,7 @@
-package com.battletrident.gameManager
+package com.battletrident.game
 
 object GameManager {
+	fun startGame() {
+		
+	}
 }
